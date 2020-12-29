@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill">
+        <shape android:shape="rectangle">
+            <solid android:color="#ff0" />
+        </shape>
+    </item>
+    <item>
+        <!--
+        android:gravity设置bitmap图像的展示方式，居中/填充/水平居中/垂直居中等等
+        android:tileMode设置图片的展示方式
+        如果图片不能展示完全，可以设置下列三种方式展示图片
+        "clamp"表示按照周边进行绘制
+        "repeat"重复展示图片
+        "mirror"镜像展示图片
+              -->
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/bk_splash" />
+    </item>
+</layer-list>
